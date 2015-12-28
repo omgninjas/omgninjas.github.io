@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Artists Theme
 
 This site is being built on YouTube, one week at a time. See all the videos up to date here: [How to build a professional website from start to finish](https://www.youtube.com/playlist?list=PLqGj3iMvMa4KQZUkRjfwMmTq_f1fbxerI)
@@ -68,3 +69,7 @@ _Artist Themes in the wild:_
 
 
 This is a free Jekyll Theme that is currently being developed in weekly episodes on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners).
+=======
+# omgninjas.github.io
+Check out my melody
+>>>>>>> 43ebe1582d1f8dec752b51834ef05b40c69ccbce
