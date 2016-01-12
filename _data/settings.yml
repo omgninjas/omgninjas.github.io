@@ -1,16 +1,17 @@
+
 #-------------------------------
 # General Site Settings
 
-title: Artists Theme
-description: Thinker // Designer // YouTuber
-email: devtipsfordesigners@gmail.com
+title: Sentimental Graffiti
+description: Thinker // Doodler // Developer
+email: omgninjas@me.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
-- {name: Clients, url: '#clients'}
+- {name: Children, url: '#children'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -19,9 +20,9 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
-  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  description: 'Sentimental Graffiti is a creative studio providing affordable web design services, hand-drawn illustration, inappropriate quips and general mockery.'
+  rel-author: 'https://plus.google.com/u/0/b/107326198827476542882/107326198827476542882/'
+  rel-publisher: 'https://plus.google.com/u/0/b/107326198827476542882/107326198827476542882/'
 
 #-------------------------------
 # Google Analytics Section
@@ -31,7 +32,7 @@ seo:
 
 # NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
 
-#google-analytics-ua: UA-XXXXXX-X
+google-analytics-ua: UA-64915308-1
 
 #-------------------------------
 # About Section
@@ -39,27 +40,25 @@ seo:
 # NOTE: The avatar is defined in the all.sass document.
 
 blurb: >
-  **Travis specializes in making things** for human people.
-  Most of the things he makes are [digital interfaces](http://travisneilson.com){:target="_blank"},
-  but he also puts effort into crafting [next-level beats](http://soundcloud.com/travis-neilson){:target="_blank"}
-  and [YouTube videos](http://youtube.com/user/devtipsfordesigners){:target="_blank"} about making codes happen.
+  **Damita cultivates helful and meaningful connections** for people.
+  Most of the things she makes are [digital interfaces](http://ellelobo.com){:target="_blank"},
+  but she also puts effort into personal projects like [drawing, painting](http://sentimentalgraffiti.tumblr.com){:target="_blank"}
+  and [wellness motivation](http://heavyassweight.tumblr.com){:target="_blank"}. She's always looking to provide encouragement, motivation and...a good craft or DIY project to get into.
 
 
 skills:
 - {name: Communication, value: '9'}
 - {name: Organization, value: '7'}
 - {name: Learning, value: '10'}
-- {name: Teaching, value: '6'}
 - {name: Planning, value: '7'}
-- {name: Visual Design, value: '5'}
-- {name: UX Design, value: '8'}
+- {name: Studio Art, value: '6'} 
 - {name: Programming, value: '6'}
 
 #-------------------------------
 # Work Section
 
 projects:
-- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Downtown Notary, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
@@ -72,9 +71,9 @@ projects:
 
 
 #-------------------------------
-# Clients Section
+# Children Section
 
-clients:
+children:
 - {avatar: 'face-aaroni.jpg',
   name: 'Scott Summers',
   title: 'Director of Design, OnToText Ind.',
@@ -96,16 +95,15 @@ clients:
   quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
   logo: 'logo4.png'}
 
-
 #-------------------------------
 # Contact Section
 
 social:
-- {icon: 'twitter', link: 'http://twitter.com/devtipsshow'}
-- {icon: 'dribbble', link: 'https://dribbble.com/travisneilson'}
-- {icon: 'behance', link: 'https://www.behance.net/travisneilson'}
-- {icon: 'youtube', link: 'https://www.youtube.com/DevTipsForDesigners'}
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/travisneilson/'}
+- {icon: 'twitter', link: 'http://twitter.com/omgninjaz'}
+- {icon: 'github', link: 'https://github.com/omgninjas'}
+- {icon: 'instagram', link: 'https://www.instagram.com/omgninjaz'}
+- {icon: 'linkedin', link: 'http://www.linkedin.com/in/damitasalmon/'}
+- {icon: 'pinterest', link: 'http://www.pinterest.com/omgninjaz/'}
 
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

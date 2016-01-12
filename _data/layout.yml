@@ -6,7 +6,7 @@ animation: "bounceOut"
 
 logo: "logo.svg"
 hero: "hero-bg.jpg"
-avatar: "travitar.jpg"
+avatar: "mitavitar_Greg_Loulouflor-small.jpg"
 
 # Colors
 
@@ -15,4 +15,4 @@ accent: "#c99065"
 textColor: "#666"
 headlineColor: "#333"
 bgcolor: "#e5eaee"
-documentBackgroundColor: "#fff"
+documentBackgroundColor: "#FFF"
