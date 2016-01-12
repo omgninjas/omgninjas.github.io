@@ -17,13 +17,17 @@ $projects: {% for project in site.data.settings.projects %} "{{ project.folder }
 
 $accent: {{ site.data.layout.accent }}
 
-$selectionColor: lighten($accent, 30%)
+$selectionColor: lighten($accent, 25%)
 $holly: {{ site.data.layout.eholly }}
 $holly-light: adjust-hue(saturate(lighten($holly, 11%), 12.6%), 14%)
 $taupe: {{ site.data.layout.taupe }}
+$indo: {{ site.data.layout.indochine }}
 $textColor: {{ site.data.layout.textColor }}
 $headlineColor: {{ site.data.layout.headlineColor }}
-$bgcolor: {{ site.data.layout.bgcolor }}
+
+//fix this later lighten like 90% or sum
+$bgcolor: lighten($taupe, 32%)
+
 $documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }}
 
 @import '2-base/-base-dir'
