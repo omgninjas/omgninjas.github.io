@@ -50,7 +50,7 @@ skills:
 - {name: Communication, value: '9'}
 - {name: Organization, value: '7'}
 - {name: Learning, value: '10'}
-- {name: Planning, value: '7'}
+- {name: Planning, value: '8'}
 - {name: Studio Art, value: '6'} 
 - {name: Programming, value: '6'}
 
@@ -101,7 +101,7 @@ children:
 social:
 - {icon: 'twitter', link: 'http://twitter.com/omgninjaz'}
 - {icon: 'github', link: 'https://github.com/omgninjas'}
-- {icon: 'instagram', link: 'https://www.instagram.com/omgninjaz'}
+# - {icon: 'instagram', link: 'https://www.instagram.com/omgninjaz'} 
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/damitasalmon/'}
 - {icon: 'pinterest', link: 'http://www.pinterest.com/omgninjaz/'}
 

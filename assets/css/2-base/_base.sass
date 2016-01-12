@@ -60,8 +60,7 @@ a
   outline: 0
 
 a:hover, a:focus
-  color: lighten($accent, 20%)
-
+  color: #0A8A25
 
 
 /* Selection colors (easy to forget)
@@ -100,7 +99,7 @@ svg
 
 h3
   @extend %small-bold
-  color: $accent-light
+  color: $holly
   text-align: center
   padding: 100px 0 30px
 
@@ -109,6 +108,11 @@ fieldset
   margin: 0
   border: none
 
+.bang
+  background:
+    image: url(../img/weapons.png)
+    repeat: repeat, repeat
+    
 @media screen and (max-width: 480px)
   h3
     padding: 50px 0 50px
@@ -118,9 +122,6 @@ fieldset
   padding-bottom: 100px
 
   h3
-    color: darken($accent-light, 10%)
+    color: darken($holly-light, 10%)
 
-.bang
-  background:
-    image: url(../img/weapons.png)
-    repeat: repeat, repeat
+

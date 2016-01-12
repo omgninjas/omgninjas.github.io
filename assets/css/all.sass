@@ -16,9 +16,11 @@ $projects: {% for project in site.data.settings.projects %} "{{ project.folder }
 // Set some colors as sass variables
 
 $accent: {{ site.data.layout.accent }}
-$accent-light: adjust-hue(saturate(lighten($accent, 11%), 12.6%), 14%)
-$selectionColor: lighten($accent, 30%)
 
+$selectionColor: lighten($accent, 30%)
+$holly: {{ site.data.layout.eholly }}
+$holly-light: adjust-hue(saturate(lighten($holly, 11%), 12.6%), 14%)
+$taupe: {{ site.data.layout.taupe }}
 $textColor: {{ site.data.layout.textColor }}
 $headlineColor: {{ site.data.layout.headlineColor }}
 $bgcolor: {{ site.data.layout.bgcolor }}
