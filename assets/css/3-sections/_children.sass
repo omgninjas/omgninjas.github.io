@@ -1,0 +1,161 @@
+.section-children
+  position: relative
+
+.children-belt
+  width: 100%
+  position: relative
+  
+  .child-unit
+    max-width: 750px
+    margin: 50px auto
+    position: relative
+    z-index: 1
+    display: none
+
+    &.active-child
+      +display(flex)
+      @extend %#{$animation}
+    
+    .child-face
+      min-width: 300px
+      text-align: center
+      
+      img
+        max-width: 100px
+        border-radius: 50%  
+        
+        
+      .child-name
+        display: block
+        text-transform: uppercase
+        font-weight: 400
+        letter-spacing: 1px
+      
+      .child-title
+        font-style: normal
+        font-size: 12px
+        color: #999
+      
+    .child-content
+      font-size: 18px
+      line-height: 36px
+      font-weight: 300
+      margin-top: -10px
+      position: relative
+      
+
+
+
+// Logos
+.children-logos
+  position: relative
+  max-width: 750px
+  margin: 0px auto 100px
+  +display(flex)
+  +align-items(flex-end)
+  +justify-content(space-around)
+  
+  
+  .child-logo
+    cursor: pointer
+    margin: 0 20px 20px
+    padding-bottom: 20px
+    border-bottom: 4px solid transparent
+    opacity: 0.5
+    
+    &.active-child
+      opacity: 1
+      border-bottom: 4px solid $accent
+    
+
+.child-quote-mark
+  +position(absolute, -18px null null -15px)
+  +size(60px)
+  z-index: -1
+  opacity: 0.3
+  
+  path
+    fill: $accent
+
+
+
+// Controls
+.child-controls
+  +position(absolute, 0px 0px 0px 0px) 
+  z-index: 2
+  
+  > div
+    +size(40px)
+    margin-top: -20px
+    cursor: pointer
+    
+    path
+      fill: $accent
+    
+  .child-control-next
+    +position(absolute, 50% 10px null null)
+  
+  .child-control-prev
+    +position(absolute, 50% null null 10px)
+
+// children-mobile-nav
+.children-mobile-nav
+  text-align: center
+  position: relative
+  z-index: 2
+  display: none
+  
+  span
+    display: inline-block
+    +size(16px)
+    border-radius: 50%
+    border: solid 2px $bgcolor
+    margin: 0px 10px
+    cursor: pointer
+    
+    &.active-child
+      border-color: $accent
+    
+    
+    
+
+@media (max-width: 750px)
+  .children-logos
+    +flex-wrap(wrap)
+  
+  .children-belt 
+    overflow-x: hidden
+    
+    .child-unit.active-child
+      display: block
+      position: relative
+      margin-left: 0px
+      left: auto
+    
+      .child-face
+        margin-bottom: 30px
+      
+      .child-content
+        padding: 0px 30px
+        max-width: 400px
+        margin: 0px auto
+      
+      .child-quote-mark
+        left: 6px
+
+  .child-controls
+    display: none
+  
+  .children-logos
+    display: none
+
+  .children-mobile-nav
+    display: block
+    
+    
+    
+    
+    
+    
+    
+    
