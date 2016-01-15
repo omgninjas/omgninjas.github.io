@@ -17,13 +17,14 @@ $projects: {% for project in site.data.settings.projects %} "{{ project.folder }
 
 $accent: {{ site.data.layout.accent }}
 
-$selectionColor: lighten($accent, 25%)
+$selectionColor: {{ site.data.layout.select }}
 $holly: {{ site.data.layout.eholly }}
 $holly-light: adjust-hue(saturate(lighten($holly, 11%), 12.6%), 14%)
 $taupe: {{ site.data.layout.taupe }}
 $indo: {{ site.data.layout.indochine }}
 $textColor: {{ site.data.layout.textColor }}
 $headlineColor: {{ site.data.layout.headlineColor }}
+$monarch: {{ site.data.layout.monarch }}
 
 //fix this later lighten like 90% or sum
 $bgcolor: lighten($taupe, 32%)
