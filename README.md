@@ -1,5 +1,5 @@
-# omgninjas.github.io
+# Sentimental Graffiti on Github
 
-Isn't it fantastic?
+Check out my melody. Isn't it fantastic? 
 
 This was created from a free Jekyll Theme that was being developed in weekly episodes on the [DevTips YouTube channel](http://youtube.com/devtipsfordesigners).
