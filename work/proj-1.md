@@ -1,5 +1,5 @@
 ---
-title: Typo International Design Talks Stuff
+title: Random Quote Generator 
 ---
 
 ![Typo International](assets/img/work/proj-1/img1.jpg)

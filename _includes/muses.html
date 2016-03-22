@@ -1,0 +1,51 @@
+<section class="section-muses">
+
+  <h3 id="muses">Muses</h3>
+
+  <div class="muses-mobile-nav">
+    {% for muse in site.data.settings.muses %}
+      {% if forloop.first %}
+        <span class="active-muse"></span>
+      {% else %}
+        <span></span>
+      {% endif %}
+    {% endfor %}
+  </div>
+
+  <div class="muses-belt">
+    {% for muse in site.data.settings.muses %}
+      <div class="muse-unit {% if forloop.first %}active-muse{% endif %}">
+
+        <figure class="muse-face">
+          <img src="assets/img/muses/{{ muse.avatar }}" alt="muse-face">
+          <figcaption>
+            <strong class="muse-name">{{ muse.name }}</strong>
+            <em class="muse-title">{{ muse.title }}</em>
+          </figcaption>
+        </figure>
+
+        <div class="muse-content">
+          <div class="muse-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          {{ muse.quote }}
+        </div>
+      </div>
+    {% endfor %}
+  
+  </div>
+
+  <div class="muse-controls">
+    <div class="muse-control-next">{% include icons/icon-next.html %}</div>
+    <div class="muse-control-prev">{% include icons/icon-prev.html %}</div>
+  </div>
+
+  <div class="muses-logos">
+    {% for muse in site.data.settings.muses %}
+      {% if forloop.first %}
+        <img class="muse-logo active-muse" src="assets/img/muses/{{ muse.logo }}" align="{{ muse.logo }}">
+      {% else %}
+        <img class="muse-logo" src="assets/img/muses/{{ muse.logo }}" align="{{ muse.logo }}">
+      {% endif %}
+    {% endfor %}
+  </div>
+
+</section>

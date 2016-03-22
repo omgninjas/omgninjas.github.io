@@ -1,22 +1,22 @@
-.section-children
+.section-muses
   position: relative
 
-.children-belt
+.muses-belt
   width: 100%
   position: relative
   
-  .child-unit
+  .muse-unit
     max-width: 750px
     margin: 50px auto
     position: relative
     z-index: 1
     display: none
 
-    &.active-child
+    &.active-muse
       +display(flex)
       @extend %#{$animation}
     
-    .child-face
+    .muse-face
       min-width: 300px
       text-align: center
       
@@ -25,18 +25,18 @@
         border-radius: 50%  
         
         
-      .child-name
+      .muse-name
         display: block
         text-transform: uppercase
         font-weight: 400
         letter-spacing: 1px
       
-      .child-title
+      .muse-title
         font-style: normal
         font-size: 12px
         color: #999
       
-    .child-content
+    .muse-content
       font-size: 18px
       line-height: 36px
       font-weight: 300
@@ -47,7 +47,7 @@
 
 
 // Logos
-.children-logos
+.muses-logos
   position: relative
   max-width: 750px
   margin: 0px auto 100px
@@ -56,19 +56,19 @@
   +justify-content(space-around)
   
   
-  .child-logo
+  .muse-logo
     cursor: pointer
     margin: 0 20px 20px
     padding-bottom: 20px
     border-bottom: 4px solid transparent
     opacity: 0.5
     
-    &.active-child
+    &.active-muse
       opacity: 1
       border-bottom: 4px solid $accent
     
 
-.child-quote-mark
+.muse-quote-mark
   +position(absolute, -18px null null -15px)
   +size(60px)
   z-index: -1
@@ -80,7 +80,7 @@
 
 
 // Controls
-.child-controls
+.muse-controls
   +position(absolute, 0px 0px 0px 0px) 
   z-index: 2
   
@@ -92,14 +92,14 @@
     path
       fill: $accent
     
-  .child-control-next
+  .muse-control-next
     +position(absolute, 50% 10px null null)
   
-  .child-control-prev
+  .muse-control-prev
     +position(absolute, 50% null null 10px)
 
-// children-mobile-nav
-.children-mobile-nav
+// muses-mobile-nav
+.muses-mobile-nav
   text-align: center
   position: relative
   z-index: 2
@@ -113,43 +113,43 @@
     margin: 0px 10px
     cursor: pointer
     
-    &.active-child
+    &.active-muse
       border-color: $accent
     
     
     
 
 @media (max-width: 750px)
-  .children-logos
+  .muses-logos
     +flex-wrap(wrap)
   
-  .children-belt 
+  .muses-belt 
     overflow-x: hidden
     
-    .child-unit.active-child
+    .muse-unit.active-muse
       display: block
       position: relative
       margin-left: 0px
       left: auto
     
-      .child-face
+      .muse-face
         margin-bottom: 30px
       
-      .child-content
+      .muse-content
         padding: 0px 30px
         max-width: 400px
         margin: 0px auto
       
-      .child-quote-mark
+      .muse-quote-mark
         left: 6px
 
-  .child-controls
+  .muse-controls
     display: none
   
-  .children-logos
+  .muses-logos
     display: none
 
-  .children-mobile-nav
+  .muses-mobile-nav
     display: block
     
     
