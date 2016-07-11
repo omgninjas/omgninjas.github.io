@@ -1,12 +1,12 @@
 $(function() {
 	smoothScroll(300);
-	workBelt();
-	workLoad();
-	childStuff();
-	
+	projectBelt();
+	projectLoad();
+	workStuff();
+
 	$("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '72px' });
 	$(".biglink").fitText(1.5);
-	
+
 	$('textarea').autosize();
 });
 
@@ -26,87 +26,88 @@ function smoothScroll (duration) {
 }
 
 
-function workBelt() {
-  
+function projectBelt() {
+
   $(".trigger").remove();
   $(".return").remove();
 
   $('.thumb-container label').click(function() {
-    $('.work-belt').addClass("slided");
-    $('.work-container').show();
+    $('.project-belt').addClass("slided");
+    $('.project-container').show();
   });
-  
-  $('.work-return').click(function() {
-    $('.work-belt').removeClass("slided");
-    $('.work-container').hide(800);
+
+  $('.project-return').click(function() {
+    $('.project-belt').removeClass("slided");
+    $('.project-container').hide(800);
   });
 
 }
 
 
-function  workLoad() {
-  
+function  projectLoad() {
+
   $.ajaxSetup({ cache: true });
-  
+
   $('.thumb-container label').click(function() {
     var $this = $(this),
         newTitle = $this.find('strong').text(),
-        newfolder = $this.find('.thumb-unit').data('folder'),
+        newFolder = $this.find('.thumb-unit').data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        newHTML = 'work/'+ newfolder;
-      
+        newHTML = 'projects/'+ newFolder;
+
     $('.project-load').html(spinner).load(newHTML);
     $('.project-title').text(newTitle);
   });
-  
+
 }
 
 
 
 
-function childStuff() {
-  
-  $('.child-logo, .children-mobile-nav span').click(function() {
+function workStuff() {
+
+  $('.work-logo, .work-button').click(function() {
     var $this = $(this),
-        $siblings = $this.parent().children(),
-        position = $siblings.index($this);
-        
-    $('.child-unit').removeClass('active-child').eq(position).addClass('active-child');
-    $siblings.removeClass('active-child');
-    $this.addClass('active-child');
+        position = $this.parent().children().index($this);
+
+    $('.work-unit').removeClass('active-work').eq(position).addClass('active-work');
+    $('.work-logo').removeClass('active-work').eq(position).addClass('active-work');
+    $('.work-button').removeClass('active-work').eq(position).addClass('active-work');
   });
-  
-  
-  $('.child-control-next, .child-control-prev').click(function() {
-  
+
+
+  $('.work-control-next, .work-control-prev').click(function() {
+
     var $this = $(this),
-        curActiveChild = $('.children-belt').find('.active-child'),
-        position = $('.children-belt').children().index(curActiveChild),
-        childNum = $('.child-unit').length;
-        
-      if($this.hasClass('child-control-next')) {
-        
-        if(position < childNum -1){
-          $('.active-child').removeClass('active-child').next().addClass('active-child');
+        curActiveClient = $('.works-belt').find('.active-work'),
+        position = $('.works-belt').children().index(curActiveClient),
+        workNum = $('.work-unit').length;
+
+      if($this.hasClass('work-control-next')) {
+
+        if(position < workNum -1){
+          $('.active-work').removeClass('active-work').next().addClass('active-work');
         } else {
-          $('.child-unit').removeClass('active-child').first().addClass('active-child');
-          $('.child-logo').removeClass('active-child').first().addClass('active-child');
+          $('.work-unit').removeClass('active-work').first().addClass('active-work');
+          $('.work-logo').removeClass('active-work').first().addClass('active-work');
+          $('.work-button').removeClass('active-work').first().addClass('active-work');
         }
-        
+
       } else {
-        
+
         if (position === 0) {
-          $('.child-unit').removeClass('active-child').last().addClass('active-child');
-          $('.child-logo').removeClass('active-child').last().addClass('active-child');
+          $('.work-unit').removeClass('active-work').last().addClass('active-work');
+          $('.work-logo').removeClass('active-work').last().addClass('active-work');
+          $('.work-button').removeClass('active-work').last().addClass('active-work');
         } else {
-          $('.active-child').removeClass('active-child').prev().addClass('active-child');  
+          $('.active-work').removeClass('active-work').prev().addClass('active-work');
         }
 
       }
-        
-  
+
+
   });
-  
+
 }
 
 
@@ -244,15 +245,15 @@ function childStuff() {
 				$ta.css('resize', 'horizontal');
 			}
 
-			// The mirror width must exactly match the textarea width, so using getBoundingChildRect because it doesn't round the sub-pixel value.
-			// window.getComputedStyle, getBoundingChildRect returning a width are unsupported, but also unneeded in IE8 and lower.
+			// The mirror width must exactly match the textarea width, so using getBoundingClientRect because it doesn't round the sub-pixel value.
+			// window.getComputedStyle, getBoundingClientRect returning a width are unsupported, but also unneeded in IE8 and lower.
 			function setWidth() {
 				var width;
 				var style = window.getComputedStyle ? window.getComputedStyle(ta, null) : false;
-				
+
 				if (style) {
 
-					width = ta.getBoundingChildRect().width;
+					width = ta.getBoundingClientRect().width;
 
 					if (width === 0 || typeof width !== 'number') {
 						width = parseInt(style.width,10);
@@ -284,7 +285,7 @@ function childStuff() {
 				$.each(typographyStyles, function(i,val){
 					styles[val] = $ta.css(val);
 				});
-				
+
 				$(mirror).css(styles).attr('wrap', $ta.attr('wrap'));
 
 				setWidth();
@@ -312,8 +313,8 @@ function childStuff() {
 				}
 
 				if (!ta.value && options.placeholder) {
-					// If the textarea is empty, copy the placeholder text into 
-					// the mirror control and use that for sizing so that we 
+					// If the textarea is empty, copy the placeholder text into
+					// the mirror control and use that for sizing so that we
 					// don't end up with placeholder getting trimmed.
 					mirror.value = ($ta.attr("placeholder") || '') + options.append;
 				} else {
@@ -417,4 +418,3 @@ function childStuff() {
 		});
 	};
 }(jQuery || $)); // jQuery or jQuery-like library, such as Zepto
-

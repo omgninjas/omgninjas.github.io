@@ -3,15 +3,16 @@
 # General Site Settings
 
 title: Sentimental Graffiti
-description: Thinker // Doodler // Developer
+description: Always Be Learning
 email: omgninjas@me.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
 menu:
 - {name: About Me, url: '#about-me'}
-- {name: Work, url: '#work'}
-- {name: Muses, url: '#muses'}
+- {name: Projects, url: '#projects'}
+- {name: Works, url: '#works'}
+- {name: Posts, url: '#blog'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -39,41 +40,38 @@ google-analytics-ua: UA-64915308-1
 
 # NOTE: The avatar is defined in the all.sass document.
 
-blurb: >
-  **Damita cultivates helpful and meaningful connections** for people.
-  Most of the things she makes are [digital interfaces](http://ellelobo.com){:target="_blank"},
-  but she also puts effort into personal projects like [drawing, painting](http://sentimentalgraffiti.tumblr.com){:target="_blank"}
-  and [wellness motivation](http://heavyassweight.tumblr.com){:target="_blank"}. She's always looking to provide encouragement, motivation and...a good craft or DIY project to get into.
-
+blurb: This is where I try to say something nice about myself.
+ 
 
 skills:
-- {name: Communication, value: '9'}
-- {name: Organization, value: '8'}
-- {name: Learning, value: '8'}
-- {name: Planning, value: '7'}
-- {name: Studio Art, value: '6'} 
-- {name: Programming, value: '6'}
+- {name: HTML/CSS (Jade/Sass), value: '8'}
+- {name: Communication, value: '8'}
+- {name: Planning & Organization, value: '7'}
+- {name: Learning, value: '10'}
+- {name: Version Control (Git), value: '6'} 
+- {name: Python, value: '4'}
+
 
 #-------------------------------
-# Work Section
+# Projects Section
 
 projects:
-- {name: Random Quote Generator, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Simple Landing Page, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: JavaScript Calculator, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Email Newsletter, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Pomodoro Clock, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Tic Tac Toe Game, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Simon Game, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Simple Landing Page, folder: 'proj-1', file: 'projects/proj-1.html'}
+- {name: Random Quote Generator, folder: 'proj-2', file: 'projects/proj-2.html'}
+- {name: JavaScript Calculator, folder: 'proj-3', file: 'projects/proj-3.html'}
+- {name: Email Newsletter, folder: 'proj-4', file: 'projects/proj-4.html'}
+- {name: Pomodoro Clock, folder: 'proj-5', file: 'projects/proj-5.html'}
+- {name: Tic Tac Toe Game, folder: 'proj-6', file: 'projects/proj-6.html'}
+- {name: Weather Dashboard, folder: 'proj-7', file: 'projects/proj-7.html'}
+- {name: Simon Game, folder: 'proj-8', file: 'projects/proj-8.html'}
 
 
 
 
 #-------------------------------
-# Muses Section
+# Works Section
 
-Muses:
+works:
 - {avatar: 'face-aaroni.jpg',
   name: 'Scott Summers',
   title: 'Director of Design, OnToText Ind.',
@@ -104,6 +102,6 @@ social:
 # - {icon: 'instagram', link: 'https://www.instagram.com/omgninjaz'} 
 - {icon: 'linkedin', link: 'http://www.linkedin.com/in/damitasalmon/'}
 - {icon: 'pinterest', link: 'http://www.pinterest.com/omgninjaz/'}
-- {icon: 'codepen', link: 'https://codepen.io/omgninjas'}
+#- {icon: 'codepen', link: 'https://codepen.io/omgninjas'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'

@@ -1,0 +1,43 @@
+<section class="section-works">
+
+  <h3 id="works">Clients</h3>
+
+  <div class="works-mobile-nav">
+    {% for work in site.data.settings.works %}
+        <span class="work-button {% if forloop.first %}active-work{% endif %}"></span>
+    {% endfor %}
+  </div>
+
+  <div class="works-belt">
+    {% for work in site.data.settings.works %}
+      <div class="work-unit {% if forloop.first %}active-work{% endif %}">
+
+        <figure class="work-face">
+          <img src="assets/img/works/{{ work.avatar }}" alt="work-face">
+          <figcaption>
+            <strong class="work-name">{{ work.name }}</strong>
+            <em class="work-title">{{ work.title }}</em>
+          </figcaption>
+        </figure>
+
+        <div class="work-content">
+          <div class="work-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          {{ work.quote }}
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+
+  <div class="work-controls">
+    <div class="work-control-next">{% include icons/icon-next.html %}</div>
+    <div class="work-control-prev">{% include icons/icon-prev.html %}</div>
+  </div>
+
+  <div class="works-logos">
+    {% for work in site.data.settings.works %}
+        <img class="work-logo {% if forloop.first %}active-work{% endif %}" src="assets/img/works/{{ work.logo }}" align="{{ work.logo }}">
+    {% endfor %}
+  </div>
+
+</section>

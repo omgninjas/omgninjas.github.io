@@ -1,4 +1,4 @@
-.section-work
+.section-projects
   overflow-x: hidden
 
 /* Hackey-type CSS as a jQuery Alternative for when the browser does not have jQuery enabled. */
@@ -6,7 +6,7 @@
   display: none
 
 @each $proj in $projects
-  ##{$proj}:checked ~ .work-belt .work-wrap .work-container noscript #content-#{$proj}
+  ##{$proj}:checked ~ .project-belt .project-wrap .project-container noscript #content-#{$proj}
     display: block
 
 .return
@@ -15,14 +15,14 @@
 .trigger
   display: none
 
-  &:checked ~ .work-belt
+  &:checked ~ .project-belt
     left: -100%
 
-    .work-wrap .work-container
+    .project-wrap .project-container
       display: block
 /* End of gross / hackey CSS */
 
-.work-belt
+.project-belt
   width: 200%
   position: relative
   left: 0%
@@ -31,7 +31,7 @@
   &.slided
     +transform(translate3d(-50%, 0, 0))
 
-.thumb-wrap, .work-wrap
+.thumb-wrap, .project-wrap
   width: 50%
   float: left
   
@@ -85,7 +85,7 @@
         @extend %#{$animation}
     
 
-.work-container
+.project-container
   max-width: 600px
   margin: 0px auto
   padding: 0 15px
@@ -106,7 +106,7 @@
     max-width: 100%
     margin-bottom: 20px
   
-  .work-return
+  .project-return
     +size(40px)
     cursor: pointer
     opacity: 0.5
@@ -121,9 +121,9 @@
  
  
 @media (max-width: 740px)
-  .work-container
+  .project-container
     
-    .work-return
+    .project-return
       left: 0px
     
     h4

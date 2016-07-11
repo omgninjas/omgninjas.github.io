@@ -1,110 +1,111 @@
-.section-muses
+.section-works
   position: relative
 
-.muses-belt
+.works-belt
   width: 100%
   position: relative
-  
-  .muse-unit
+
+  .work-unit
     max-width: 750px
     margin: 50px auto
     position: relative
     z-index: 1
     display: none
 
-    &.active-muse
+    &.active-work
       +display(flex)
       @extend %#{$animation}
-    
-    .muse-face
-      min-width: 300px
+
+    .work-face
+      min-width: 180px
       text-align: center
-      
+
       img
         max-width: 100px
-        border-radius: 50%  
-        
-        
-      .muse-name
+        border-radius: 50%
+
+
+      .work-name
         display: block
         text-transform: uppercase
         font-weight: 400
         letter-spacing: 1px
-      
-      .muse-title
+
+      .work-title
         font-style: normal
         font-size: 12px
         color: #999
-      
-    .muse-content
+
+    .work-content
       font-size: 18px
       line-height: 36px
       font-weight: 300
       margin-top: -10px
       position: relative
-      
+
 
 
 
 // Logos
-.muses-logos
+.works-logos
   position: relative
+  z-index: 3
   max-width: 750px
   margin: 0px auto 100px
   +display(flex)
   +align-items(flex-end)
   +justify-content(space-around)
-  
-  
-  .muse-logo
+
+
+  .work-logo
     cursor: pointer
     margin: 0 20px 20px
     padding-bottom: 20px
     border-bottom: 4px solid transparent
     opacity: 0.5
-    
-    &.active-muse
+
+    &.active-work
       opacity: 1
       border-bottom: 4px solid $accent
-    
 
-.muse-quote-mark
+
+.work-quote-mark
   +position(absolute, -18px null null -15px)
   +size(60px)
   z-index: -1
   opacity: 0.3
-  
+
   path
     fill: $accent
 
 
 
 // Controls
-.muse-controls
-  +position(absolute, 0px 0px 0px 0px) 
+.work-controls
+  +position(absolute, 0px 0px 0px 0px)
   z-index: 2
-  
+
   > div
     +size(40px)
     margin-top: -20px
     cursor: pointer
-    
+
     path
       fill: $accent
-    
-  .muse-control-next
+
+  .work-control-next
     +position(absolute, 50% 10px null null)
-  
-  .muse-control-prev
+
+  .work-control-prev
     +position(absolute, 50% null null 10px)
 
-// muses-mobile-nav
-.muses-mobile-nav
+// works-mobile-nav
+.works-mobile-nav
   text-align: center
   position: relative
-  z-index: 2
+  z-index: 3
   display: none
-  
+
   span
     display: inline-block
     +size(16px)
@@ -112,50 +113,44 @@
     border: solid 2px $bgcolor
     margin: 0px 10px
     cursor: pointer
-    
-    &.active-muse
-      border-color: $accent
-    
-    
-    
 
-@media (max-width: 750px)
-  .muses-logos
+    &.active-work
+      border-color: $accent
+
+
+
+
+@media (max-width: 850px)
+  .works-logos
     +flex-wrap(wrap)
-  
-  .muses-belt 
+
+  .works-belt
     overflow-x: hidden
-    
-    .muse-unit.active-muse
+
+    .work-unit.active-work
       display: block
       position: relative
-      margin-left: 0px
+      margin-left: auto
       left: auto
-    
-      .muse-face
+
+      .work-face
         margin-bottom: 30px
-      
-      .muse-content
+
+      .work-content
         padding: 0px 30px
         max-width: 400px
         margin: 0px auto
-      
-      .muse-quote-mark
+
+      .work-quote-mark
         left: 6px
 
-  .muse-controls
-    display: none
-  
-  .muses-logos
+  .works-logos
     display: none
 
-  .muses-mobile-nav
+  .works-mobile-nav
     display: block
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+@media (max-width: 600px)
+  .work-controls
+    display: none
