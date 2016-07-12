@@ -21,13 +21,12 @@
         </figure>
 
         <div class="work-content">
-          <div class="work-quote-mark">{% include icons/icon-quote-mark.html %}</div>
+          <div class="work-quote-mark"></div>
           {{ work.quote }}
         </div>
       </div>
     {% endfor %}
-
-  </div>
+ </div>
 
   <div class="work-controls">
     <div class="work-control-next">{% include icons/icon-next.html %}</div>
@@ -36,7 +35,7 @@
 
   <div class="works-logos">
     {% for work in site.data.settings.works %}
-        <img class="work-logo {% if forloop.first %}active-work{% endif %}" src="assets/img/works/{{ work.logo }}" align="{{ work.logo }}">
+        <a href="{{ work.url }}"><img class="work-logo {% if forloop.first %}active-work{% endif %}" src="assets/img/works/{{ work.logo }}" align="{{ work.logo }}"/></a>
     {% endfor %}
   </div>
 
