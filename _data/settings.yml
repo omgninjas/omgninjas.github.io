@@ -12,7 +12,6 @@ menu:
 - {name: About Me, url: '#about-me'}
 - {name: Projects, url: '#projects'}
 - {name: Works, url: '#works'}
-- {name: Posts, url: '#blog'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -73,8 +72,8 @@ projects:
 
 works:
 - {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
+  name: 'Stevie Bando',
+  title: 'Music Producer',
   quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
   logo: 'logo1.png'}
 - {avatar: 'face-atariboy.jpg',
@@ -100,8 +99,8 @@ social:
 - {icon: 'twitter', link: 'http://twitter.com/omgninjaz'}
 - {icon: 'github', link: 'https://github.com/omgninjas'}
 # - {icon: 'instagram', link: 'https://www.instagram.com/omgninjaz'} 
-- {icon: 'linkedin', link: 'http://www.linkedin.com/in/damitasalmon/'}
+#- {icon: 'linkedin', link: 'http://www.linkedin.com/in/damitasalmon/'}
 - {icon: 'pinterest', link: 'http://www.pinterest.com/omgninjaz/'}
-#- {icon: 'codepen', link: 'https://codepen.io/omgninjas'}
+- {icon: 'codepen', link: 'https://codepen.io/omgninjas'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
