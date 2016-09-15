@@ -1,0 +1,29 @@
+{
+  "name": "omgninjas-me",
+  "version": "1.0.0",
+  "description": "Check out my melody. Isn't it fantastic?",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omgninjas/omgninjas.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omgninjas/omgninjas.github.io/issues"
+  },
+  "homepage": "https://github.com/omgninjas/omgninjas.github.io#readme"
+}

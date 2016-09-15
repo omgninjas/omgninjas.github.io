@@ -39,16 +39,18 @@ google-analytics-ua: UA-64915308-1
 
 # NOTE: The avatar is defined in the all.sass document.
 
-blurb: This is where I try to say something nice about myself.
+blurb: Quips and Quotes and Unfinished Notes
  
 
 skills:
-- {name: HTML/CSS (Jade/Sass), value: '8'}
-- {name: Communication, value: '8'}
-- {name: Planning & Organization, value: '7'}
-- {name: Learning, value: '10'}
-- {name: Version Control (Git), value: '6'} 
+- {name: HTML5 (jade/pug), value: '8'}
 - {name: Python, value: '4'}
+- {name: CSS3 (SASS), value: '7'}
+- {name: Gulp/Grunt, value: '6'}
+- {name: JS (jQuery - Angular - Express), value: '5'}
+- {name: Version Control (Git), value: '6'}
+- {name: Version Control (Git), value: '6'}
+- {name: Version Control (Git), value: '6'}
 
 
 #-------------------------------
