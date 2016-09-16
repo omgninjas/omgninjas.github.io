@@ -1,4 +1,3 @@
-@mixin hyphens($hyphenation: none) {
+@mixin hyphens($hyphenation: none) 
 // none | manual | auto
-  @include prefixer(hyphens, $hyphenation, webkit moz ms spec);
-}
+  @include prefixer(hyphens, $hyphenation, webkit moz ms spec)

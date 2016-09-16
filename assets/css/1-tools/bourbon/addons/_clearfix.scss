@@ -3,21 +3,21 @@
 // Example usage:
 //
 //    // Contain all floats within .wrapper
-//    .wrapper {
-//      @include clearfix;
+//    .wrapper 
+//      @include clearfix
 //      .content,
-//      .sidebar {
-//        float : left;
-//      }
-//    }
+//      .sidebar 
+//        float : left
+//      
+//    
 
-@mixin clearfix {
-  &:after {
-    content:"";
-    display:table;
-    clear:both;
-  }
-}
+@mixin clearfix 
+  &:after 
+    content:""
+    display:table
+    clear:both
+  
+
 
 // Acknowledgements
 // Beat *that* clearfix: [Thierry Koblentz](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php)
