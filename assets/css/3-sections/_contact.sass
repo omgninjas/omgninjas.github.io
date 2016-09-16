@@ -7,6 +7,7 @@
   +display(flex)
   +justify-content(space-around)
   +flex-wrap(wrap)
+
   
   a
     display: block
@@ -19,6 +20,8 @@
     font-size: 28px
     margin: 20px
     position: relative
+    &:hover
+      color: $monarch
     
     
     &:after
@@ -31,10 +34,12 @@
       opacity: 1
       +transition
       +transition-duration(1.0s)
+
       
     &:hover:after
       +transform(scale(1.5))
       opacity: 0
+
 
 .bar
   width: 250px
@@ -51,8 +56,7 @@
   width: 90%
   margin: 0 auto
   color: lighten($holly, 8%)
-  font-family: 'Loved by the King', cursive
+  font-family: 'Patrick Hand', cursive
   letter-spacing: 0.08em
-  
   &:hover
-    color: $taupe
+    color: $monarch

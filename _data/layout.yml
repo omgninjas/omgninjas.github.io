@@ -6,12 +6,12 @@ animation: "bounceOut"
 
 logo: "logo.svg"
 hero: "bg-img.jpg"
-avatar: "Mitavi-hex.png"
+avatar: "mitavimoji.png"
 
 # Colors
 
 accent: "#097D22"
-eholly: "#043D11"
+holly: "#043D11"
 taupe: "#c99065"
 indochine: "#c97104"
 textColor: "#666"
