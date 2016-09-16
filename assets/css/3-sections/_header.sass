@@ -3,7 +3,7 @@
 header
   @extend %background-image
   background:
-    position: 30px 20px, 50% 50%
+    position: 30px 20px, 50% 76%
     image: url(../img/#{$logo-path}), url(../img/#{$hero-path}) 
   padding-bottom: 150px
   
@@ -12,9 +12,10 @@ header
     +size(50px)
     float: left
     margin: 10px 0 0 30px
-    path
-      fill: rgba(0,0,0,0.95)
     
+    path
+      fill: rgba(0,0,0,0.4)
+      
   nav
     float: right
     padding: 30px 30px 0 0
@@ -23,12 +24,15 @@ header
       margin-left: 20px
       color: rgba($holly,0.75)
       @extend %small-bold
-      font-size: 0.875em
-      text-shadow: 0.5px 0.5px 1px $indo
-
+      font-size: 1.1em
+      letter-spacing: 0.08em
+      text-shadow: 2px 3px 4px $bgcolor
       &:hover
         color: $indo
-        text-shadow: 0.5px 0.5px 1px $holly, 1px 1px 2px $taupe
+      &:active, &:focus
+        color: $holly 
+      &:visited
+        color: $monarch
 
 
     
