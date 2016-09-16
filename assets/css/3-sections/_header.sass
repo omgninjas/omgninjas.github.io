@@ -18,21 +18,23 @@ header
       
   nav
     float: right
-    padding: 30px 30px 0 0
+    margin: 30px 30px auto auto
+    padding: 0 30px 0 0
     a
       display: inline-block
+      background-color: $bgcolor
+      padding: 1px
       margin-left: 20px
       color: rgba($holly,0.75)
       @extend %small-bold
       font-size: 1.1em
       letter-spacing: 0.08em
-      text-shadow: 2px 3px 4px $bgcolor
       &:hover
-        color: $indo
+        color: $monarch
       &:active, &:focus
         color: $holly 
       &:visited
-        color: $monarch
+        color: $indo
 
 
     
