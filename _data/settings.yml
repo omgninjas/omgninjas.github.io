@@ -20,7 +20,7 @@ menu:
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
 seo:
-  description: 'Sentimental Graffiti is a creative studio providing affordable web design services, hand-drawn illustration, inappropriate quips and general mockery.'
+  description: 'OMGninjas is a creative studio providing affordable web design services, hand-drawn illustration, inappropriate quips and general mockery.'
   rel-author: 'https://plus.google.com/u/0/b/107326198827476542882/107326198827476542882/'
   rel-publisher: 'https://plus.google.com/u/0/b/107326198827476542882/107326198827476542882/'
 
@@ -39,7 +39,7 @@ google-analytics-ua: UA-64915308-1
 
 # NOTE: The avatar is defined in the all.sass document.
 
-blurb: Quips and Quotes and Unfinished Notes
+blurb: I\'m not here to make friends.
  
 
 skills:

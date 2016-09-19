@@ -1,12 +1,12 @@
 ---
-title: Random Quote Generator 
+title: Simple Landing Page
 ---
 
-![Typo International](assets/img/projects/proj-1/img1.jpg)
+![Simple Landing Page Project](assets/img/projects/proj-1/img1.png)
 
-TYPO: International Design Talks is an annual event held in Berlin, London, and San Francisco. This promotional project is developed to market the event for the designindustry. The use of patterns, sophisticated color scheme and typography are applied for the print and mobile application.
+Simple Landing Page example with Jumbotron, CTA buttom and 3-column layout.
 
-![Typo International](assets/img/projects/proj-1/img2.jpg)
-![Typo International](assets/img/projects/proj-1/img3.jpg)
-![Typo International](assets/img/projects/proj-1/img4.jpg)
-![Typo International](assets/img/projects/proj-1/img5.jpg)
+<a hfref="https://omgninjas.me/squadfit/" target="_blank">View In Browser</a>
+
+
+![Simple Landing Page Project](assets/img/projects/proj-1/img2.png)
