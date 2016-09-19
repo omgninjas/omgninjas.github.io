@@ -57,14 +57,14 @@ skills:
 # Projects Section
 
 projects:
-- {name: Simple Landing Page, folder: 'proj-1', file: 'projects/proj-1.html'}
-- {name: Random Quote Generator, folder: 'proj-2', file: 'projects/proj-2.html'}
-- {name: JavaScript Calculator, folder: 'proj-3', file: 'projects/proj-3.html'}
-- {name: Email Newsletter, folder: 'proj-4', file: 'projects/proj-4.html'}
-- {name: Pomodoro Clock, folder: 'proj-5', file: 'projects/proj-5.html'}
-- {name: Tic Tac Toe Game, folder: 'proj-6', file: 'projects/proj-6.html'}
-- {name: Weather Dashboard, folder: 'proj-7', file: 'projects/proj-7.html'}
-- {name: Simon Game, folder: 'proj-8', file: 'projects/proj-8.html'}
+- {name: Simple Landing Page, folder: 'proj-1', file: 'projects/proj-1.md'}
+- {name: Random Quote Generator, folder: 'proj-2', file: 'projects/proj-2.md'}
+- {name: JavaScript Calculator, folder: 'proj-3', file: 'projects/proj-3.md'}
+- {name: Email Newsletter, folder: 'proj-4', file: 'projects/proj-4.md'}
+- {name: Pomodoro Clock, folder: 'proj-5', file: 'projects/proj-5.md'}
+- {name: Tic Tac Toe Game, folder: 'proj-6', file: 'projects/proj-6.md'}
+- {name: Weather Dashboard, folder: 'proj-7', file: 'projects/proj-7.md'}
+- {name: Simon Game, folder: 'proj-8', file: 'projects/proj-8.md'}
 
 
 
