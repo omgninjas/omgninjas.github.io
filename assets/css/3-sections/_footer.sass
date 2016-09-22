@@ -14,19 +14,20 @@ footer
         margin: 0
         text-transform: uppercase
         font-size: 12px
-        color: rgba($holly,0.9)
+        color: $indo
         font-weight: bold
-        background-color: $bgcolor
         padding: 0px 2px
       
       a
         @extend %small-bold
-        color: rgba(4,49,13,0.75)
+        color: $indo
         display: inline-block
         margin-right: 30px
         font-size: 0.9em
         letter-spacing: 0.07em
-        background-color: $bgcolor
         padding: 0px 2px
+        text-shadow: lighten($bgcolor, 10%) 6px 2px 26px
         &:hover
-          color: $indo
+          color: $monarch
+          text-shadow: darken($bgcolor, 10%) 6px 2px 26px
+
