@@ -2,12 +2,12 @@
 title: Random Quote Generator
 ---
 
-![Click Quote Generator](assets/img/projects/proj-2/img.jpg)
+![Click Quote Generator](assets/img/projects/proj-2/full.jpg)
 
 
 <a href="http://s.codepen.io/omgninjas/debug/Majvvm" target="_blank">View In Browser</a>
 
-Part of FreeCodeCamp FontEnd projects.
+Part of FreeCodeCamp FrontEnd projects.
 
 **Objective:** Build a CodePen.io app that is functionally similar to [this](https://codepen.io/FreeCodeCamp/full/ONjoLe/).
 
@@ -16,8 +16,6 @@ Part of FreeCodeCamp FontEnd projects.
 **Rule #2:** Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
 
 **User Story:** I can click a button to show me a new random quote.
-
-[comment]: <> (User Story: I can press a button to tweet out a quote.)
 
 **Pending Feature:** Click to tweet quote.
 
