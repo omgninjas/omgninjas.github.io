@@ -2,7 +2,7 @@
 title: Random Quote Generator
 ---
 
-![Click Quote Generator](assets/img/projects/proj-2/full.jpg)
+![Click Quote Generator](assets/img/projects/proj-2/v2full.jpg)
 
 
 <a href="http://s.codepen.io/omgninjas/debug/Majvvm" target="_blank">View In Browser</a>
@@ -17,5 +17,4 @@ Part of FreeCodeCamp FrontEnd projects.
 
 **User Story:** I can click a button to show me a new random quote.
 
-**Pending Feature:** Click to tweet quote.
-
+**User Story:** I can press a button to tweet out a quote.
