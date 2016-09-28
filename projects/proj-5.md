@@ -4,7 +4,7 @@ title: Percy Julian Tribute Page
 
 ![Percy Julian Tribute Page](assets/img/projects/proj-5/img1.jpg)
 
-<a href="http://s.codepen.io/omgninjas/debug/Majvvm" target="_blank">View In Browser</a>
+<a href="https://s.codepen.io/omgninjas/debug/qZwGxj" target="_blank">View In Browser</a>
 
 Part of FreeCodeCamp FrontEnd projects.
 
