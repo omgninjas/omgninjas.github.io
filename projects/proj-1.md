@@ -1,11 +1,26 @@
 ---
-title: Simple Landing Page
+title: Simple Weather App
 ---
 
+![FreeCodeCamp Weather App](assets/img/projects/proj-1/weatherapp.png)
 
-Simple Landing Page example with Jumbotron, CTA buttom and 3-column layout.
+<a href="http://s.codepen.io/omgninjas/debug/yYgPQr/GnMnbVabDjVM" target="_blank">View In Browser</a>
 
-<a href="https://omgninjas.me/squadfit/" target="_blank">View In Browser</a>
+Part of FreeCodeCamp FrontEnd projects.
+
+**Objective:** Build a CodePen.io app that is functionally similar to [this:](http://codepen.io/FreeCodeCamp/full/bELRjV).
+
+**Rule #1:** Don't look at the example project's code. Figure it out for yourself.
+
+**Rule #2:** Fulfill the below user stories. Use whichever libraries or APIs you need. Give it your own personal style.
+
+**User Story:** I can see the weather in my current location.
+
+**User Story:**  I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+
+**User Story:** I can push a button to toggle between Fahrenheit and Celsius.
 
 
-![Simple Landing Page Project](assets/img/projects/proj-1/full.jpg)
+
+
+
