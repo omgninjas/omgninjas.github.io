@@ -1,31 +1,32 @@
-# Build settings
-
+---
+title: Omgninjas.Github.Io
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
 markdown: kramdown
 permalink: pretty
-
 port: 8000
-
-include: ['_includes/work']
-exclude: ['the_design.psd']
-
+include:
+- _includes/work
+exclude:
+- the_design.psd
 sass:
   sass_dir: assets/css
   style: :nested
-
-root: /octo-5
-
-#Default Settings
-defaults:
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "posts"
-    values:
-      layout: "post"
-  -
-    scope:
-      path: "" # an empty string here means all files in the project
-      type: "pages"
-    values:
-      layout: "page"
-
+root: "/octo-5"
