@@ -36,7 +36,7 @@ skills:
   - name: PHP
     value: '4'
 projects:
-  - name: Simple Weather App
+  - name: Weather App
     folder: proj-1
     file: projects/proj-1.html
   - name: Bootstrap Template
