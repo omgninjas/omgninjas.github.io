@@ -10,7 +10,6 @@ avatar: "mitavimoji.png"
 
 # Colors
 
-accent: "#097D22"
 holly: "#043D11"
 taupe: "#c99065"
 indochine: "#c97104"
@@ -19,3 +18,4 @@ headlineColor: "#333"
 documentBackgroundColor: "#FFF"
 select: "#6be3c9"
 monarch: "#7D0917"
+accent: "#097D22"
