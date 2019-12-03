@@ -45,7 +45,7 @@ projects:
   - name: JavaScript Calculator
     folder: proj-3
     file: projects/proj-3.html
-  - name: PELAvision Newsletter
+  - name: HTML Newsletter
     folder: proj-4
     file: projects/proj-4.html
   - name: Percy Julian Tribute Page
