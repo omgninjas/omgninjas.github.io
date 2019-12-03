@@ -1,21 +1,19 @@
 title: Damita Salmon
-description: Portfolio Playhouse
+description: Portfolio / Playhouse
 email: omgninjas@me.com
 menu:
   - name: About Me
     url: '#about-me'
   - name: Projects
     url: '#projects'
-  - name: Works
-    url: '#works'
   - name: Contact
     url: '#contact'
 seo:
   description: >-
     OMGninjas is a creative studio providing affordable web design services,
     hand-drawn illustration, inappropriate quips and general mockery.
-  rel-author: 'https://plus.google.com/u/0/b/107326198827476542882/107326198827476542882/'
-  rel-publisher: 'https://plus.google.com/u/0/b/107326198827476542882/107326198827476542882/'
+  rel-author: 'https://github.com/omgninjas'
+  rel-publisher: 'https://github.com/omgninjas'
 google-analytics-ua: UA-64915308-1
 blurb: >-
   The bumblebee\'s wings are so thin and it\'s body so big, it should not be
@@ -27,15 +25,15 @@ skills:
     value: '4'
   - name: CSS3 (SASS)
     value: '7'
-  - name: Gulp/Grunt/Webpack
-    value: '4'
+  - name: Gulp/Grunt
+    value: '5'
   - name: JS
-    value: '5'
+    value: '7'
   - name: Version Control (Git)
-    value: '5'
+    value: '7'
   - name: Photoshop
-    value: '3'
-  - name: Design
+    value: '5'
+  - name: PHP
     value: '4'
 projects:
   - name: Simple Weather App
@@ -62,12 +60,6 @@ projects:
   - name: Simple Portfolio Page
     folder: proj-8
     file: projects/proj-8.html
-works:
-  - avatar: face-bando.jpg
-    name: Stevie Bando
-    title: Music Producer
-    quote: <p>More information about this project coming soon</p>
-    logo: logo1.png
 social:
   - icon: twitter
     link: 'http://twitter.com/omgninjaz'
