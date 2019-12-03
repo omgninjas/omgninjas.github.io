@@ -54,7 +54,7 @@ projects:
   - name: Random Quote Generator
     folder: proj-2
     file: projects/proj-2.html
-  - name: Signup Landing Page
+  - name: Sign-up Landing
     folder: proj-7
     file: projects/proj-7.html
   - name: Simple Portfolio Page
