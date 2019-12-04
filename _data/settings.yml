@@ -57,7 +57,7 @@ projects:
   - name: Sign-up Landing
     folder: proj-7
     file: projects/proj-7.html
-  - name: Simple Bootstrap Portfolio
+  - name: Bootstrap Portfolio
     folder: proj-8
     file: projects/proj-8.html
 social:
