@@ -5,7 +5,7 @@ title: JavaScript Calculator
 ![Click Quote Generator](assets/img/projects/proj-3/full.jpg)
 
 
-<a href="http://s.codepen.io/omgninjas/debug/LGJNKK" target="_blank">View In Browser</a>
+<a href="https://omgninjas.me/js-calculator/" target="_blank">View In Browser</a>
 
 Part of FreeCodeCamp FrontEnd projects.
 
