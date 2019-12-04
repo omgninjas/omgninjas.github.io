@@ -5,7 +5,7 @@ title: Random Quote Generator
 ![Click Quote Generator](assets/img/projects/proj-2/v2full.jpg)
 
 
-<a href="http://s.codepen.io/omgninjas/debug/QyVNXq" target="_blank">View In Browser</a>
+<a href="https://omgninjas.me/scroll-place/" target="_blank">View In Browser</a>
 
 Part of FreeCodeCamp FrontEnd projects.
 
