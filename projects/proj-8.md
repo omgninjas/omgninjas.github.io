@@ -1,5 +1,5 @@
 ---
-title: Simple Weather App
+title: Simple Bootstrap Portfolio
 ---
 
 ![FreeCodeCamp Personal Portfolio](assets/img/projects/proj-8/fcc-portfolio.jpg)
