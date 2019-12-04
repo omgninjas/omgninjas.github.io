@@ -2,7 +2,7 @@
 title: Landing Signup Page
 ---
 
-#### Static Landing Page 
+##### Static Landing Page 
 
 ![Full Page Site](assets/img/projects/proj-7/full.jpg)
 
