@@ -4,7 +4,7 @@ title: Simple Weather App
 
 ![FreeCodeCamp Personal Portfolio](assets/img/projects/proj-8/fcc-portfolio.jpg)
 
-<a href="http://s.codepen.io/omgninjas/debug/BQEPPp/yokZEQYYJLpA" target="_blank">View In Browser</a>
+<a href="https://codepen.io/omgninjas/full/xdJaoZ" target="_blank">View In Browser</a>
 
 Part of FreeCodeCamp FrontEnd projects.
 
