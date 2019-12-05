@@ -1,13 +1,16 @@
+#-------------------------------
+# General Site Settings
+
 title: Damita Salmon
-description: Portfolio / Playhouse
+description: Think // Design // Develop
 email: omgninjas@me.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
 menu:
-  - name: About Me
-    url: '#about-me'
-  - name: Projects
-    url: '#projects'
-  - name: Contact
-    url: '#contact'
+  - {name: About Me, url: '#about-me'}
+  - {name: Projects, url: '#projects'}
+  - {name: Contact, url: '#contact'}
 seo:
   description: >-
     OMGninjas is a creative studio providing affordable web design services,
@@ -16,8 +19,8 @@ seo:
   rel-publisher: 'https://github.com/omgninjas'
 google-analytics-ua: UA-64915308-1
 blurb: >-
-  The bumblebee\'s wings are so thin and it\'s body so big, it should not be
-  able to fly. The only problem is, the bee doesn\'t know that. - David Lindsey
+**Damita specializes in making things** for human people.
+  Most of the things she makes are digital solutions to analog problems.
 skills:
   - name: HTML5 (jade/pug)
     value: '8'
