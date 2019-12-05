@@ -19,8 +19,8 @@ seo:
   rel-publisher: 'https://github.com/omgninjas'
 google-analytics-ua: UA-64915308-1
 blurb: >-
-**Damita specializes in making things** for human people.
-  Most of the things she makes are digital solutions to analog problems.
+  **Damita specializes in making things** for human people.
+    Most of the things she makes are digital solutions to analog problems.
 skills:
   - name: HTML5 (jade/pug)
     value: '8'
@@ -74,3 +74,5 @@ social:
     link: 'https://codepen.io/omgninjas'
   - icon: gitlab
     link: 'https://gitlab.com/omgninjas'
+
+ 
