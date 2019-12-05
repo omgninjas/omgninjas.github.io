@@ -2,36 +2,5 @@
 ---
 
 @import '1-tools/-tools-dir'
-
-//------------------------------------------------
-// Transition the image paths from the settings file to usable SASS variables
-$animation: {{ site.data.layout.animation }}
-$logo-path: '{{ site.data.layout.logo }}'
-$hero-path: '{{ site.data.layout.hero }}'
-$avatar-path: '{{ site.data.layout.avatar }}'
-
-$projects: {% for project in site.data.settings.projects %} "{{ project.folder }}", {% endfor %}
-
-//------------------------------------------------
-// Set some colors as sass variables
-
-$accent: {{ site.data.layout.accent }}
-
-$selectionColor: {{ site.data.layout.select }}
-$holly: {{ site.data.layout.holly }}
-$holly-light: adjust-hue(saturate(lighten($holly, 11%), 12.6%), 14%)
-$taupe: {{ site.data.layout.taupe }}
-$indo: {{ site.data.layout.indochine }}
-$textColor: {{ site.data.layout.textColor }}
-$headlineColor: {{ site.data.layout.headlineColor }}
-$monarch: {{ site.data.layout.monarch }}
-$select: {{ site.data.layout.select }}
-
-//fix this later lighten like 90% or sum
-$bgcolor: lighten($taupe, 32%)
-$alt-bg: url(../img/MALINA_01_ca.jpg)
-
-$documentBackgroundColor: {{ site.data.layout.documentBackgroundColor }}
-
 @import '2-base/-base-dir'
 @import '3-sections/-sections-dir'
