@@ -25,8 +25,8 @@ skills:
   - {name: HTML5 (Pug.js), value: '8'}
   - {name: Python, value: '4'}
   - {name: CSS3 (SASS), value: '7'}
-  - {name: SQL (MySQL, SQLite), value: '7'}
-  - {name: JS (Node, Express, React), value: '7'}
+  - {name: SQL (MySQL SQLite), value: '7'}
+  - {name: JS (Node Express React), value: '7'}
   - {name: Version Control (Git), value: '7'}
   - {name: Photoshop, value: '5'}
   - {name: PHP, value: '4'}
