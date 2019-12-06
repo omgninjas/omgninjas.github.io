@@ -8,7 +8,6 @@ $display-font: 'King Basil Lite', Impact, Charcoal, sans-serif
 
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6
-  color: $headlineColor
   font-weight: bold
 
 .gigantic
@@ -28,6 +27,9 @@ h1, h2, h3, h4, h5, h6
 .bigger, h3
   font-size: 26px
   line-height: 1.38
+
+h3
+  color: $indo
 
 .big, h4
   font-size: 22px
@@ -106,13 +108,6 @@ body
 svg
   +size(100%)
 
-h3
-  @extend %small-bold
-  color: $indo
-  text-align: center
-  padding: 100px 0 30px
-
-  
 fieldset
   padding: 0
   margin: 0
