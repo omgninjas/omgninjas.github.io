@@ -5,7 +5,7 @@ header
   background:
     position: 30px 20px, 50% 76%
     image: url(../img/#{$logo-path}), url(../img/#{$hero-path}) 
-  padding-bottom: 150px
+  padding-bottom: 50px
   
   
   .logo
@@ -22,17 +22,14 @@ header
     padding: 0 30px 0 0
     a
       display: inline-block
-      //background-color: rgba(250,235,215, .55)
       padding: 1px
       margin-left: 20px
       color: lighten(#faebd7, 5%)
       @extend %small-bold
       font-size: 1.15em
       letter-spacing: 0.08em
-      text-shadow: darken($holly, 10%) 6px 2px 26px
       &:hover
         color: lighten($indo, 15%)
-        text-shadow: darken($bgcolor, 10%) 6px 2px 26px
       &:active, &:focus
         color: $holly 
       &:visited
@@ -44,17 +41,18 @@ header
     text-align: center
     font:
       size: 72px
+      family: $display-font
     color: $accent
     text-transform: lowercase
     margin-bottom: 20px
     clear: both
     padding-top: 150px
+    
     span
       display: inline-block
-      padding: 0.6em 0.5em
-      border-top: $bgcolor solid 10px
-      border-bottom: $bgcolor solid 10px
-      font-family: 'King Basil Lite', Impact, Charcoal, sans-serif
+      padding: 0.2em 0.5em
+      border-top: $bgcolor solid 7px
+      border-bottom: $bgcolor solid 7px
 
   
   .kicker
@@ -63,7 +61,7 @@ header
     color: $accent
     line-height: 1
     padding-top: 50px
-    font-family: 'King Basil Lite', Impact, Charcoal, sans-serif
+    font-family: $main-font
     text-transform: lowercase
     font-size: 2em
 
